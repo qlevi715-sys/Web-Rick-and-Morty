@@ -2,10 +2,6 @@
 
 Aplicación de escritorio hecha con Electron que consulta la API pública de Rick and Morty y muestra la información de los personajes: imagen, nombre, estado, especie, género y origen. Incluye paginación para navegar por todos los personajes.
 
-## Requisitos
-
-- [Node.js](https://nodejs.org/) instalado
-
 ## Instrucciones de ejecución
 
 1. Clonar el repositorio:
