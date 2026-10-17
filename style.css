@@ -1,0 +1,8 @@
+ #card-dinamica .card {
+        height: 100%;
+    }
+
+#card-dinamica .card-body {
+        display: flex;
+        flex-direction: column;
+    }

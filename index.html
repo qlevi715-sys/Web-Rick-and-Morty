@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <title>Rick and Morty Explorer</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body class="bg-secondary">
+    <div class="container my-5">
+        <section class="d-flex align-items-center text-white" id="loading">
+            <strong>Cargando ...</strong>
+            <div class="spinner-border ms-auto" role="status" aria-hidden="true"></div>
+        </section>
+        <div class="row" id="card-dinamica">
+            <template id="template-card">
+                <article class="col-md-6 col-lg-3 mb-3">
+                    <div class="card h-100 text-center bg-dark shadow">
+                        <img src="https://rickandmortyapi.com/api/character/avatar/3.jpeg" alt="" class="card-img-top">
+                        <div class="card-body">
+                            <h5 class="card-title text-white lead">SumSum</h5>
+                            <p class="card-text mb-1 small text-light">Human</p>
+                        </div>
+                    </div>
+                </article>
+            </template>
+        </div>
+
+        <nav class="d-flex justify-content-center align-items-center gap-3 mt-4">
+            <button id="btn-anterior" class="btn btn-dark">&laquo; Anterior</button>
+            <span id="info-pagina" class="text-white fw-bold">Página 1</span>
+            <button id="btn-siguiente" class="btn btn-dark">Siguiente &raquo;</button>
+        </nav>
+    </div>
+    <script src="renderer.js"></script>
+</body>
+</html>

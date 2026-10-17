@@ -1,0 +1,17 @@
+{
+  "name": "Ejercicio_01",
+  "productName": "Rick and Morty Explorer",
+  "version": "1.0.0",
+  "description": "Aplicacion de escritorio para consultar personajes de la serie Rick and Morty",
+   "author": "Olmert Levi Quintanilla Hernandez",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "keywords": [],
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "electron": "^44.8.0"
+  }
+}
